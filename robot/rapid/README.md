@@ -12,7 +12,7 @@ An earlier RAPID sample was reviewed. It is **not a validated program**. Check t
 - `MoveStep`: reads the current joints with `CJointT()` and increments or decrements **joint 6** in 10° steps. `j6_curr` starts at −180.
 - Robtargets mentioned: `gripper_extend`, `wire`, `wireTocamera`, `camera_50mm`.
 
-> Add the original file here when it is available, and do **not** include any controller credentials. Network addresses belong in local, git-ignored config files.
+
 
 ## Conventions
 - Use workobjects and tooldata, never targets referenced only to the base frame.
