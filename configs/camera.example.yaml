@@ -1,0 +1,15 @@
+# Example camera configuration. Copy it to `configs/camera.local.yaml` (git-ignored)
+# and fill in the real values. Never commit IP addresses or credentials.
+camera_config_id: cognex_v0
+model: "Cognex In-Sight (verify exact model label)"
+connection:
+  ip: "<camera-ip>"          # set locally or via COGNEX_IP
+  ftp_port: 21
+  remote_file: image.bmp
+acquisition:
+  exposure_ms: null          # values < ~8 ms caused intermittent images (cause unverified)
+  working_distance_mm: 150   # earlier close-up wire inspection setup
+  color: unknown             # verify: color vs monochrome sensor
+calibration:
+  intrinsics_file: null      # e.g. configs/calibration/cognex_v0_intrinsics.yaml
+  reprojection_error_px: null
