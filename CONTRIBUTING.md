@@ -16,9 +16,3 @@
 | Edge deployment | `edge/` | Ian |
 | Experiment protocols and logs | `experiments/` | All |
 | Meeting notes | `docs/meeting-notes/YYYY-MM-DD_topic.md` | All |
-
-## Writing rules
-- All repository content is written in **English**.
-- Separate **facts / measured results** from **plans / assumptions**. Never report a number that was not measured.
-- Record units (mm, degrees, seconds, px) everywhere.
-- Update `docs/08_roadmap_and_status.md` when a milestone changes.
